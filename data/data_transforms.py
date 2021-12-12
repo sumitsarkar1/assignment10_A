@@ -7,7 +7,7 @@ from albumentations import (
     RGBShift,
     Rotate
 )
-from albumentations.pytorch import ToTensorV2
+from albumentations.pytorch import ToTensor
 import numpy as np
 import torchvision.transforms as transforms
 
@@ -34,7 +34,7 @@ def albumentations_transforms(p=1.0, is_train=False):
 			max_pixel_value=255.0,
 			p=1.0
 		),
-		ToTensorV2()
+		ToTensor()
 	])
 	data_transforms = Compose(transforms_list, p=p)
 	return lambda img: data_transforms(image=np.array(img))["image"]
@@ -51,7 +51,7 @@ def torch_transforms(is_train=False):
 			transforms.RandomHorizontalFlip(),
 		])
 	transforms_list.extend([
-		transforms.ToTensorV2(),
+		transforms.ToTensor(),
 		transforms.Normalize(mean, std),
 	])
 	if is_train:
