@@ -1,4 +1,4 @@
-# Target achieve more than 50% Test accuracy on Tiny ImageNet dataset 
+# Target : achieve more than 50% Test accuracy on TinyImageNet dataset 
 
 ### 1. Model to be used : [custom Resnet18](https://github.com/sumitsarkar1/sumitEVA7/tree/main/models) ###
 ### 2. Number of epochs to be used: 50 ###
