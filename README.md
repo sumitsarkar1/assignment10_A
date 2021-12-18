@@ -22,5 +22,17 @@ test data set :  30.0 %
 ## Training/Testing accuracy ##
 ![alt text](https://github.com/sumitsarkar1/assignment10_A/blob/main/plots/accuracy.png)
 
+## Last 2 epoch results ##
+```
+EPOCH: 49 LR Value:  0.00016065038254939196
+Loss=0.3622516691684723 Batch_id=1203 Train Accuracy=99.68: 100%|█| 1204/12
+
+Test set: Average loss: 0.0384, Test Accuracy: 19126/33000 (57.96%)
+
+EPOCH: 50 LR Value:  4.0270099675616e-05
+Loss=0.38646507263183594 Batch_id=1203 Train Accuracy=99.66: 100%|█| 1204/1
+
+Test set: Average loss: 0.0384, Test Accuracy: 19084/33000 (57.83%)
+```
 
 
