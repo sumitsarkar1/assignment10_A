@@ -15,6 +15,12 @@ train data set :  70.0 %
 test data set :  30.0 %
 ```
 
-## Training/Testing loss and accuracy ##
+## Training/Testing loss ##
+![alt text](https://github.com/sumitsarkar1/assignment10_A/blob/main/plots/loss.png)
+
+
+## Training/Testing accuracy ##
+![alt text](https://github.com/sumitsarkar1/assignment10_A/blob/main/plots/accuracy.png)
+
 
 
